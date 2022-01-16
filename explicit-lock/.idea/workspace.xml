@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d2c904c-d113-4091-8268-5aa290035030" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="23nFIeEo0FeVgTYQYVz1FgpWyjX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/apiguardian-api-1.1.2.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.16903515" />
+    <property name="project.structure.side.proportion" value="0.15069968" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="threads" />
+      <recent name="" />
+      <recent name="currentList" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="currentList" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="currentList" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SimpleConcurrentListTest.buscarRemoverInserirVarios">
+    <configuration name="SimpleConcurrentListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ListaConcorrente" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleConcurrentListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleConcurrentListTest.buscarERemoverVarios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ListaConcorrente" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleConcurrentListTest" />
+      <option name="METHOD_NAME" value="buscarERemoverVarios" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleConcurrentListTest.buscarRemoverInserirVarios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ListaConcorrente" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleConcurrentListTest" />
+      <option name="METHOD_NAME" value="buscarRemoverInserirVarios" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleConcurrentListTest.buscarVarios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ListaConcorrente" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleConcurrentListTest" />
+      <option name="METHOD_NAME" value="buscarVarios" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleConcurrentListTest.inserirVarios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ListaConcorrente" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleConcurrentListTest" />
+      <option name="METHOD_NAME" value="inserirVarios" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SimpleConcurrentListTest.buscarRemoverInserirVarios" />
+        <item itemvalue="JUnit.SimpleConcurrentListTest.buscarERemoverVarios" />
+        <item itemvalue="JUnit.SimpleConcurrentListTest" />
+        <item itemvalue="JUnit.SimpleConcurrentListTest.buscarVarios" />
+        <item itemvalue="JUnit.SimpleConcurrentListTest.inserirVarios" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d2c904c-d113-4091-8268-5aa290035030" name="Changes" comment="" />
+      <created>1642361866547</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642361866547</updated>
+    </task>
+    <servers />
+  </component>
+</project>
