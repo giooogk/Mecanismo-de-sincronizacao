@@ -8,9 +8,12 @@ O projeto foi feito utilizando JAVA SDK 11. Para os testes, foi utilizado o JUni
 Esta versão utiliza locks explícitos para realizar as operações da lista. Para ver a lista funcionando, execute os testes.
 
 #### Como compilar
-Basta ir na classe Main.java clicar com o botão direito ir na opção "Run as" e clicar na primeira opção "Java application"
-![image](https://user-images.githubusercontent.com/47827014/149682207-a8a9b656-27c9-4d9e-9bce-b139f9ad05a4.png)
 
 #### Rodando testes
 
 ### implicit-lock
+O projeto foi implementado em Java, usando o eclipse IDE.
+
+#### Como compilar
+Basta ir na classe Main.java clicar com o botão direito ir na opção "Run as" e clicar na primeira opção "Java application"
+![image](https://user-images.githubusercontent.com/47827014/149682207-a8a9b656-27c9-4d9e-9bce-b139f9ad05a4.png)
