@@ -19,11 +19,9 @@ public class ConcurrentList {
 	public void inserir(int item) {
 		lock.writeLock().lock();
 		try {
-
 			innerList.add(item);
 			System.out.println(Thread.currentThread().getName() +  " inseriu " + item);
 
-			lock.writeLock().unlock();
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
@@ -42,7 +40,6 @@ public class ConcurrentList {
 			boolean hasRemoved = innerList.removeFirstOccurrence(item);
 			System.out.println(Thread.currentThread().getName() + " removeu? " + hasRemoved);
 
-			lock.writeLock().unlock();
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
@@ -60,11 +57,10 @@ public class ConcurrentList {
 			int indexOfItem = innerList.indexOf(item);
 			System.out.println(Thread.currentThread().getName() + " buscou " + item + " e retornou " + indexOfItem);
 
-			lock.readLock().unlock();
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
-//			lock.readLock().unlock();
+			lock.readLock().unlock();
 		}
 	}
 

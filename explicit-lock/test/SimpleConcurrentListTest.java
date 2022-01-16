@@ -89,7 +89,7 @@ class SimpleConcurrentListTest {
         }
 
         // cria as threads de busca
-        int NUM_THREADS = 20;
+        int NUM_THREADS = 1000;
         B[] buscar = new B[NUM_THREADS];
         for(int i = 0; i < NUM_THREADS; i++) {
             buscar[i] = new B("Buscar " + (i+1), lista, i);

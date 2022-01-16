@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d2c904c-d113-4091-8268-5aa290035030" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListaConcorrente/currentList/RandomLis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ListaConcorrente/SimpleConcurrentListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ListaConcorrente/SimpleConcurrentListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/currentList/ConcurrentList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/currentList/ConcurrentList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/currentList/RandomLis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/SimpleConcurrentListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/SimpleConcurrentListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +28,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="23nFIeEo0FeVgTYQYVz1FgpWyjX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/apiguardian-api-1.1.2.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.16903515" />
     <property name="project.structure.side.proportion" value="0.15069968" />
@@ -131,5 +136,16 @@
       <updated>1642361866547</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
