@@ -2,7 +2,7 @@
 public class Main {
 	
 	private static final int CAPACIDADE = 100;
-	private static final int NUM_THREADS = 10;
+	private static final int NUM_THREADS = 5;
 
 	public static void main(String[] args) {
 		
