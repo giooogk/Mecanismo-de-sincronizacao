@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d2c904c-d113-4091-8268-5aa290035030" name="Changes" comment="" />
+    <list default="true" id="5d2c904c-d113-4091-8268-5aa290035030" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +16,9 @@
         <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -32,7 +38,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/apiguardian-api-1.1.2.jar" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.16903515" />
     <property name="project.structure.side.proportion" value="0.15069968" />
   </component>
@@ -55,7 +61,7 @@
       <recent name="currentList" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleConcurrentListTest.buscarRemoverInserirVarios">
+  <component name="RunManager" selected="JUnit.SimpleConcurrentListTest.buscarVarios">
     <configuration name="SimpleConcurrentListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ListaConcorrente" />
       <option name="PACKAGE_NAME" value="" />
@@ -107,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SimpleConcurrentListTest.buscarRemoverInserirVarios" />
-        <item itemvalue="JUnit.SimpleConcurrentListTest.buscarERemoverVarios" />
-        <item itemvalue="JUnit.SimpleConcurrentListTest" />
         <item itemvalue="JUnit.SimpleConcurrentListTest.buscarVarios" />
         <item itemvalue="JUnit.SimpleConcurrentListTest.inserirVarios" />
+        <item itemvalue="JUnit.SimpleConcurrentListTest" />
+        <item itemvalue="JUnit.SimpleConcurrentListTest.buscarRemoverInserirVarios" />
+        <item itemvalue="JUnit.SimpleConcurrentListTest.buscarERemoverVarios" />
       </list>
     </recent_temporary>
   </component>
