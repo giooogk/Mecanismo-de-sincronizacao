@@ -10,6 +10,8 @@ import threads.R;
 class SimpleConcurrentListTest {
 
     @RepeatedTest(100)
+    // Este teste fará várias inserções e verificará se ao final a soma dos elementos da lista
+    // é o esperado (PA de [0, ..., 999]).
     void inserirVarios() {
         ConcurrentList lista = new ConcurrentList();
         int NUM_THREADS = 1000;
@@ -43,6 +45,8 @@ class SimpleConcurrentListTest {
     }
 
     @RepeatedTest(100)
+    // Este teste cria uma lista contendo os inteiros em [0..9] e tentará remover
+    // inteiros em [0..999]. É esperado que o resultado da soma dos valores da lista seja 0.
     void removerVarios() {
         // cria uma lista de [0, ..., 9]
         ConcurrentList lista = new ConcurrentList();
@@ -82,6 +86,8 @@ class SimpleConcurrentListTest {
     }
 
     @RepeatedTest(100)
+    // Este teste cria uma lista contendo os inteiros em [0..9] e tentará buscar
+    // inteiros em [0..999]. É esperado que ainda seja possível adiquirir o lock da thread para leitura.
     void buscarVarios() {
         // cria uma lista de [0, ..., 9]
         ConcurrentList lista = new ConcurrentList();
@@ -101,7 +107,7 @@ class SimpleConcurrentListTest {
             buscar[i].start();
         }
 
-        // verifica se PODE ativar o lock de read
+        // verifica se PODE ativar o lock de read enquanto tenta adiquirí-lo
         Assertions.assertEquals(true, lista.lock.readLock().tryLock());
 
         // espera todas threads terminarem
@@ -116,6 +122,8 @@ class SimpleConcurrentListTest {
     }
 
     @RepeatedTest(100)
+    // Este teste cria uma lista contendo os inteiros em [0..9] e realiza operações de remoção, inserção e busca
+    // ao mesmo tempo. É esperado que, ao final, a soma dos valores da lista seja igual a 45
     void buscarRemoverInserirVarios() {
         // cria uma lista de [0, ..., 9]
         ConcurrentList lista = new ConcurrentList();
