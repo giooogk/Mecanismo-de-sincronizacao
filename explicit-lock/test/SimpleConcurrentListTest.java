@@ -1,4 +1,5 @@
 import currentList.ConcurrentList;
+import org.junit.jupiter.api.RepeatedTest;
 import threads.B;
 import threads.I;
 import org.junit.jupiter.api.Test;
@@ -8,10 +9,10 @@ import threads.R;
 
 class SimpleConcurrentListTest {
 
-    @Test
+    @RepeatedTest(100)
     void inserirVarios() {
         ConcurrentList lista = new ConcurrentList();
-        int NUM_THREADS = 10;
+        int NUM_THREADS = 1000;
 
         // cria as threads de inserção
         I[] inserir = new I[NUM_THREADS];
@@ -38,10 +39,10 @@ class SimpleConcurrentListTest {
         System.out.println("Somatório: " + sum);
 
         // verifica se o somatório está correto
-        Assertions.assertEquals(45, sum);
+        Assertions.assertEquals(499500, sum);
     }
 
-    @Test
+    @RepeatedTest(100)
     void removerVarios() {
         // cria uma lista de [0, ..., 9]
         ConcurrentList lista = new ConcurrentList();
@@ -52,7 +53,7 @@ class SimpleConcurrentListTest {
         Assertions.assertEquals(45, lista.sum());
 
         // cria as threads de remoção
-        int NUM_THREADS = 20;
+        int NUM_THREADS = 1000;
         R[] remover = new R[NUM_THREADS];
         for(int i = 0; i < NUM_THREADS; i++) {
             remover[i] = new R("Remover " + (i+1), lista, i);
@@ -80,7 +81,7 @@ class SimpleConcurrentListTest {
         Assertions.assertEquals(0, sum);
     }
 
-    @Test
+    @RepeatedTest(100)
     void buscarVarios() {
         // cria uma lista de [0, ..., 9]
         ConcurrentList lista = new ConcurrentList();
@@ -114,7 +115,7 @@ class SimpleConcurrentListTest {
 
     }
 
-    @Test
+    @RepeatedTest(100)
     void buscarRemoverInserirVarios() {
         // cria uma lista de [0, ..., 9]
         ConcurrentList lista = new ConcurrentList();

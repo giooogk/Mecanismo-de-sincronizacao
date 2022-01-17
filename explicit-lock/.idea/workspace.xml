@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5d2c904c-d113-4091-8268-5aa290035030" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListaConcorrente/currentList/RandomLis.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/ListaConcorrente/SimpleConcurrentListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ListaConcorrente/SimpleConcurrentListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/currentList/ConcurrentList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/currentList/ConcurrentList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/currentList/RandomLis.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/SimpleConcurrentListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/SimpleConcurrentListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,22 +63,12 @@
       <recent name="currentList" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleConcurrentListTest.buscarVarios">
+  <component name="RunManager" selected="JUnit.SimpleConcurrentListTest.buscarRemoverInserirVarios">
     <configuration name="SimpleConcurrentListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ListaConcorrente" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SimpleConcurrentListTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleConcurrentListTest.buscarERemoverVarios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ListaConcorrente" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SimpleConcurrentListTest" />
-      <option name="METHOD_NAME" value="buscarERemoverVarios" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,13 +103,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleConcurrentListTest.removerVarios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ListaConcorrente" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleConcurrentListTest" />
+      <option name="METHOD_NAME" value="removerVarios" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SimpleConcurrentListTest.buscarVarios" />
-        <item itemvalue="JUnit.SimpleConcurrentListTest.inserirVarios" />
-        <item itemvalue="JUnit.SimpleConcurrentListTest" />
         <item itemvalue="JUnit.SimpleConcurrentListTest.buscarRemoverInserirVarios" />
-        <item itemvalue="JUnit.SimpleConcurrentListTest.buscarERemoverVarios" />
+        <item itemvalue="JUnit.SimpleConcurrentListTest" />
+        <item itemvalue="JUnit.SimpleConcurrentListTest.removerVarios" />
+        <item itemvalue="JUnit.SimpleConcurrentListTest.inserirVarios" />
+        <item itemvalue="JUnit.SimpleConcurrentListTest.buscarVarios" />
       </list>
     </recent_temporary>
   </component>
