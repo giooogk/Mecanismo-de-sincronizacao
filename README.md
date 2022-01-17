@@ -1,4 +1,4 @@
-# Mecanismo-de-sincronizaca
+# Mecanismo-de-sincronizacao
 
 Este repositório contem duas versões de uma lista encadeada que pode ser acessada por varias threadas ao mesmo tempo para operações de inserção, leitura e remoção.
 
