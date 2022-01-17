@@ -71,12 +71,4 @@ public class ConcurrentList {
 		}
 		return sum;
 	}
-
-	public void printList() {
-		System.out.println("Lista:");
-		for(int i = 0; i < innerList.size(); i++) {
-			System.out.print( "(" + i + ": " + innerList.get(i) + "), ");
-		}
-		System.out.println("\n");
-	}
 }
