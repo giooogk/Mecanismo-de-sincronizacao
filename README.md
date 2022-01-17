@@ -2,6 +2,8 @@
 
 Este repositório contem duas versões de uma lista encadeada que pode ser acessada por varias threadas ao mesmo tempo para operações de inserção, leitura e remoção.
 
+---
+
 ### explicit-lock
 
 O projeto foi feito utilizando JAVA SDK 11. Para os testes, foi utilizado o JUnit 5.
@@ -12,6 +14,8 @@ Utilizando o IntelliJ, após abrir o projeto, basta clicar em __Build -> Build P
 
 #### Rodando testes
 Utilizando o IntelliJ, após abrir o projeto, navegue até `test/`, clique com o botão esquerdo em `SimpleConcurrentListTest` e em seguida em "Run 'SimpleConcurrentListTest'".
+
+---
 
 ### implicit-lock
 O projeto foi implementado em Java, usando o eclipse IDE.
